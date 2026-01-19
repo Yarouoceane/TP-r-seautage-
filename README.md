@@ -93,11 +93,11 @@ ip route 0.0.0.0 0.0.0.0 192.168.100.2
 end
 copy running-config startup-config
 5.	Serveurs :
-o	Serveur DHCP : Configurer les pools pour chaque réseau
-o	Serveur DNS : Définir l'adresse 192.168.99.11
+-Serveur DHCP : Configurer les pools pour chaque réseau
+-Serveur DNS : Définir l'adresse 192.168.99.11
 6.	PCs :
-o	Attribuer les IPs statiques selon le plan
-o	Vérifier les passerelles et DNS
+-Attribuer les IPs statiques selon le plan
+-Vérifier les passerelles et DNS
 Étape 3 : Configuration du routage
 1.	Sur le Routeur Principal, ajouter les routes statiques :
 text
@@ -152,4 +152,4 @@ Remarques Importantes
 4.	Tests incrémentiels : Tester après chaque étape de configuration
 Ce projet démontre une architecture réseau d'entreprise typique, scalable et maintenable, répondant aux besoins d'un établissement universitaire moderne.
 
-# TP-r-seautage-
+
